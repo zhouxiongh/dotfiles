@@ -1,0 +1,10 @@
+imap jk <Esc>
+
+"set so=15
+"set siso=10
+
+nnoremap j jzz
+nnoremap k kzz
+nnoremap o zzo
+nnoremap i zzi
+nnoremap a zza
