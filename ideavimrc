@@ -5,6 +5,9 @@ imap jk <Esc>
 
 nnoremap j jzz
 nnoremap k kzz
+
 nnoremap o zzo
 nnoremap i zzi
 nnoremap a zza
+
+inoremap <CR> <CR><C-o>zz
