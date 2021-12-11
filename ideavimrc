@@ -1,10 +1,9 @@
 imap jk <Esc>
 
-"set so=15
-"set siso=10
+set so=5
 
-nnoremap j jzz
-nnoremap k kzz
+"nnoremap j jzz
+"nnoremap k kzz
 
 nnoremap o zzo
 nnoremap i zzi
