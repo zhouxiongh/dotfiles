@@ -85,7 +85,7 @@ plugins=(
     zsh-autosuggestions
     extract
     themes
-    gitignore
+#    gitignore
     cp
     colored-man-pages
     thefuck
