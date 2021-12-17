@@ -94,7 +94,7 @@ plugins=(
     fzf
     sudo
     zsh-osx-autoproxy
-    fast-syntax-highlighting
+#    fast-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
