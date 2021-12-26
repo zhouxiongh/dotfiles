@@ -128,8 +128,12 @@ alias set_proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
 alias cl=clear
 alias s=neofetch
 alias f=fuck
-
+alias ping="sudo hping -S"
+# zsh-autosuggestion Tab-completion
+bindkey '^I' autosuggest-accept
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
