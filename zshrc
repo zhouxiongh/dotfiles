@@ -130,7 +130,7 @@ alias s=neofetch
 alias f=fuck
 alias ping="sudo hping -S"
 # zsh-autosuggestion Tab-completion
-bindkey '^I' autosuggest-accept
+#bindkey '^I' autosuggest-accept
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
