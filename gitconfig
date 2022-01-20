@@ -37,4 +37,4 @@
 	name = hezhoux
 	email = hezhoux@qq.com
 [credential]
-	helper = osxkeychain
+#	helper = osxkeychain
