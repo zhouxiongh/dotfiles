@@ -38,3 +38,4 @@
 	email = hezhoux@qq.com
 [credential]
 #	helper = osxkeychain
+	helper = store
