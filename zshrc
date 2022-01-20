@@ -125,6 +125,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias set_proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias unproxys5='unset ALL_PROXY'
 alias cl=clear
 alias s=neofetch
 alias f=fuck
