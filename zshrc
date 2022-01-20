@@ -9,15 +9,15 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jason/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-# ZSH_THEME="ys"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="ys"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -82,19 +82,23 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git
     z
+#git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     zsh-autosuggestions
     extract
     themes
 #    gitignore
     cp
     colored-man-pages
-    thefuck
-    virtualenvwrapper
+#    thefuck
+#    virtualenvwrapper
     python
-    fzf
+#    fzf
     sudo
-    zsh-osx-autoproxy
+    command-not-found
+#    zsh-osx-autoproxy
 #    fast-syntax-highlighting
+
+
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -128,7 +132,7 @@ alias set_proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
 alias cl=clear
 alias s=neofetch
 alias f=fuck
-alias ping="sudo hping -S"
+#alias ping="sudo hping -S"
 # zsh-autosuggestion Tab-completion
 #bindkey '^I' autosuggest-accept
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
