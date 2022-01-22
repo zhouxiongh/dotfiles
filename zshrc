@@ -85,11 +85,13 @@ plugins=(
     zsh-autosuggestions
     extract
     themes
-#    gitignore
+    gitignore
     cp
     colored-man-pages
-#    thefuck
-#    virtualenvwrapper
+#apt install thefuck
+    thefuck
+#apt install virtualenvwrapper
+    virtualenvwrapper
     python
 #    fzf
     sudo
@@ -132,9 +134,9 @@ alias f=fuck
 alias ping="sudo hping -S"
 # zsh-autosuggestion Tab-completion
 #bindkey '^I' autosuggest-accept
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
