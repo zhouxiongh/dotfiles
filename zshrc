@@ -82,16 +82,16 @@ ZSH_THEME="ys"
 plugins=(
     git
     z
-    zsh-autosuggestions
+    #zsh-autosuggestions
     extract
     themes
     gitignore
     cp
     colored-man-pages
 #apt install thefuck
-    thefuck
+    #thefuck
 #apt install virtualenvwrapper
-    virtualenvwrapper
+    #virtualenvwrapper
     python
 #    fzf
     sudo
