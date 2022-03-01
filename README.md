@@ -22,7 +22,7 @@ updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
-    brew install rcm
+    sudo apt install rcm
 
 Install the dotfiles:
 
