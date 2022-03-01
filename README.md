@@ -6,9 +6,9 @@ thoughtbot dotfiles
 Requirements
 ------------
 
-Set zsh as your login shell:
+Set oh-my-zsh as your login shell:
 
-    chsh -s $(which zsh)
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 Install
 -------
