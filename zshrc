@@ -86,17 +86,17 @@ plugins=(
     zsh-autosuggestions
     extract
     themes
-#    gitignore
+    gitignore
     cp
     colored-man-pages
 #    thefuck
-#    virtualenvwrapper
+    virtualenvwrapper
     python
 #    fzf
     sudo
     command-not-found
-#    zsh-osx-autoproxy
-#    fast-syntax-highlighting
+    zsh-osx-autoproxy
+    fast-syntax-highlighting
 
 
 )
@@ -129,9 +129,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias set_proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias unproxy="unset ALL_PROXY"
 alias cl=clear
 alias s=neofetch
 alias f=fuck
+alias ipy=ipython
+alias dv=deactivate
 #alias ping="sudo hping -S"
 # zsh-autosuggestion Tab-completion
 #bindkey '^I' autosuggest-accept
