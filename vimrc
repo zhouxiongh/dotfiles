@@ -95,7 +95,7 @@ set expandtab " Use spaces instead of tabs
 set wrap " Wrap lines
 
 " set iskeyword+=-
-set whichwrap+=<,>,h,l,[,]
+set whichwrap+=<,>,h,[,]
 
 " clear vert split and empty lines fillchar
 if has('nvim')
