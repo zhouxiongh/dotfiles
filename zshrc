@@ -82,7 +82,7 @@ ZSH_THEME="ys"
 plugins=(
     git
     z
-    #zsh-autosuggestions
+    zsh-autosuggestions
     extract
     themes
     gitignore
@@ -91,12 +91,13 @@ plugins=(
 #apt install thefuck
     #thefuck
 #apt install virtualenvwrapper
-    #virtualenvwrapper
+    virtualenvwrapper
     python
 #    fzf
     sudo
-#    zsh-osx-autoproxy
-#    fast-syntax-highlighting
+    kubectl
+    zsh-osx-autoproxy
+    fast-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -131,7 +132,8 @@ alias unproxys5='unset ALL_PROXY'
 alias cl=clear
 alias s=neofetch
 alias f=fuck
-alias ping="sudo hping -S"
+alias "pip=python -m pip"
+#alias ping="sudo hping -S"
 # zsh-autosuggestion Tab-completion
 #bindkey '^I' autosuggest-accept
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
